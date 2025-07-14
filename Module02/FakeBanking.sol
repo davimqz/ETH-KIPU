@@ -10,4 +10,5 @@ contract FakeBanking {
     function getBalance(address user) public view returns (uint) {
         return balances[user];
     }
- }
+}
+ 
